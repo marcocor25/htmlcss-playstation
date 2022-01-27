@@ -10,10 +10,14 @@
 
 /* ************************************************** */
 
-/* MY STYLE */
+/* MY STYLE - NAVBAR */
 
 .sony_logo {
     width: 80px;
+}
+
+#ms_nav {
+    background: white !important;
 }
 
 #ms_nav a {
@@ -61,3 +65,33 @@
 }
 
 /* ************************************************** */
+
+/* MY STYLE - JUMBOTRON */
+
+#returnal_banner {
+    min-height: 580px;
+    background-image: url(img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#jumbo_col {
+    min-height: 580px;
+    border: 2px dashed yellow;
+}
+
+.buy_now {
+    width: 120px;
+    border: none;
+    color: white;
+    background: #CD3C10;
+}
+
+
+
+
+
+
+
+
