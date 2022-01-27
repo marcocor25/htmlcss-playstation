@@ -4,8 +4,13 @@
     background: black;
 }
 
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0.25rem #016FD1 !important;
+}
 
-
+html {
+    background: teal;
+}
 
 /* ************************************************** */
 
@@ -15,9 +20,24 @@
     width: 80px;
 }
 
+#ms_nav a {
+    transition: 200ms linear;
+    font-weight: 500;
+    color: black !important;
+}
 
+#ms_nav a:hover {
+    color: #016FD1 !important;
+}
 
+.fa-chevron-down {
+    transition: 200ms linear;
+    font-size: 12px;
+    color: #999999;
+}
 
-
+.nav-link:hover .fa-chevron-down {
+    color: #016FD1;
+}
 
 /* ************************************************** */
