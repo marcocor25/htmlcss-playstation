@@ -1,6 +1,8 @@
 /* PRESET */
 
-
+.background_black {
+    background: black;
+}
 
 
 
@@ -9,6 +11,9 @@
 
 /* MY STYLE */
 
+.sony_logo {
+    width: 80px;
+}
 
 
 
