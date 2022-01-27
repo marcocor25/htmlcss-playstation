@@ -40,4 +40,27 @@ html {
     color: #016FD1;
 }
 
+#login_btn {
+    transition: 200ms linear;
+    color: white;
+    background: #363636;
+}
+
+#login_btn:hover {
+    background: #016FD1;
+}
+
+#login_btn:focus {
+    box-shadow: 0 0 0 0.25rem #016FD1;
+}
+
+.fa-search {
+    transition: 200ms linear;
+    font-size: 20px;
+}
+
+.fa-search:hover {
+    color: #016FD1;
+}
+
 /* ************************************************** */
