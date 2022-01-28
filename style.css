@@ -32,6 +32,10 @@ img {
     color: black !important;
 }
 
+.dropdown-menu img {
+    max-width: 100px;
+}
+
 #ms_nav a:hover {
     color: #016FD1 !important;
 }
@@ -71,7 +75,7 @@ img {
 
 /* ************************************************** */
 
-/* MY STYLE - JUMBOTRON */
+/* MY STYLE - MAIN */
 
 #returnal_banner {
     min-height: 580px;
@@ -102,14 +106,16 @@ img {
     background: #ff4d17;
 }
 
-#game_pic {
+.game_pic {
     padding: 5px;
+    border: 3px solid transparent;
     border-radius: 20px;
     transition: 200ms linear;
 }
 
-#game_pic:hover {
+.game_pic.active, .game_pic:hover {
     border: 3px solid #016FD1;
+    transform: scale(1.05);
 }
 
 #no_limits {
@@ -126,4 +132,5 @@ img {
 
 #more_info_btn:hover {
     transform: scale(1.05);
+    background: black;
 }
