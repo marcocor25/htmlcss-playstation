@@ -1,12 +1,78 @@
 /* PRESET */
 
+img {
+    width: 100%;
+    height: 100%;
+}
+
 .background_black {
     background: black;
 }
 
-img {
-    width: 100%;
-    height: 100%;
+@keyframes zoom-in-out {
+    0% {
+        transform: scale(1);
+    }
+    5% {
+        transform: scale(1.08);
+    }
+    10% {
+        transform: scale(1);
+    }
+    15% {
+        transform: scale(1.08);
+    }
+    20% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.08);
+    }
+    30% {
+        transform: scale(1);
+    }
+    35% {
+        transform: scale(1.08);
+    }
+    40% {
+        transform: scale(1);
+    }
+    45% {
+        transform: scale(1.08);
+    }
+    50% {
+        transform: scale(1);
+    }
+    55% {
+        transform: scale(1.08);
+    }
+    60% {
+        transform: scale(1);
+    }
+    65% {
+        transform: scale(1);
+    }
+    70% {
+        transform: scale(1.08);
+    }
+    75% {
+        transform: scale(1);
+    }
+    80% {
+        transform: scale(1.08);
+    }
+    85% {
+        transform: scale(1);
+    }
+    90% {
+        transform: scale(1.08);
+    }
+    95% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.08);
+    }
 }
 
 /* ************************************************** */
@@ -121,7 +187,7 @@ header {
     border: 3px solid #016FD1;
 }
 
-.game_pic:hover {
+.game_pic.trans:hover {
     transform: translateY(-10px);
 }
 
@@ -140,4 +206,36 @@ header {
 #more_info_btn:hover {
     transform: scale(1.05);
     background: black;
+}
+
+.accessory_col {
+    cursor: pointer;
+}
+
+.accessory_pic {
+    width: 120px;
+    height: 120px;
+    transition: 200ms linear;
+}
+
+.inactive {
+    transition: 200ms linear;
+    opacity: 0.6;
+}
+
+.accessory_col.active, .accessory_col:hover {
+    border-bottom: 3px solid #016FD1;
+}
+
+.accessory_col:hover .inactive {
+    opacity: 1;
+}
+
+.accessory_col:hover .accessory_pic.inactive {
+    animation: zoom-in-out 12s infinite;
+}
+
+.fa-trademark {
+    font-size: 9px;
+    vertical-align: top;
 }
