@@ -75,6 +75,18 @@ img {
     }
 }
 
+@keyframes jump {
+    0% {
+        transform: translateY(5spx)
+    }
+    50% {
+        transform: translateY(-5px)
+    }
+    100% {
+        transform: translateY(5px);
+    }
+}
+
 .overlay {
     position: absolute;
     top: 0;
@@ -121,7 +133,7 @@ header {
 
 .fa-chevron-down {
     transition: 200ms linear;
-    font-size: 12px;
+    font-size: 10px;
     color: #999999;
 }
 
@@ -258,4 +270,21 @@ header {
 
 .jumbo_pic.smaller {
     width: 220px;
+}
+
+.new_games {
+    color: white;
+    background: #1F1F1F;
+}
+
+#nested_col {
+    cursor: pointer;
+}
+
+.new_games_img {
+    border-radius: 15px;
+}
+
+#nested_col:hover .new_games_img {
+    animation: 1.2s jump infinite;
 }
