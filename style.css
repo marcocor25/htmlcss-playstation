@@ -53,7 +53,7 @@ img {
 }
 
 #login_btn:hover {
-    background: #016FD1;
+    background: black;
 }
 
 #login_btn:focus {
@@ -114,4 +114,16 @@ img {
 
 #no_limits {
     color: #016FD1;
+}
+
+#more_info_btn {
+    width: 180px;
+    border: none;
+    transition: 200ms linear;
+    color: white;
+    background: #016FD1;
+}
+
+#more_info_btn:hover {
+    transform: scale(1.05);
 }
