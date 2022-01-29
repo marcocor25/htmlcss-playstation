@@ -288,3 +288,8 @@ header {
 #nested_col:hover .new_games_img {
     animation: 1.2s jump infinite;
 }
+
+.fa-registered {
+    font-size: 12px;
+    vertical-align: super;
+}
