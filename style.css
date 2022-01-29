@@ -295,6 +295,23 @@ header {
     max-width: 120px;
 }
 
-.playstation_plus {
+.ps_plus {
     background: #BEBCBB;
+}
+
+.ps_plus_logo {
+    max-width: 350px;
+}
+
+.info_btn.plus {
+    max-width: 230px;
+    font-weight: 600;
+    padding: 10px 20px;
+    color: #2E64E6;
+    background: #D9DADC;
+}
+
+.info_btn.plus:hover {
+    color: #B48739;
+    background: #F5D445;
 }
