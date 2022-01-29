@@ -152,7 +152,7 @@ header {
 }
 
 #login_btn:focus {
-    box-shadow: 0 0 0 0.25rem #016FD1;
+    box-shadow: 0 0 0 0.15rem #016FD1;
 }
 
 .fa-search {
@@ -181,11 +181,11 @@ header {
 }
 
 .jumbo_pic {
-    max-width: 250px;
+    max-width: 220px;
 }
 
 .buy_now {
-    width: 120px;
+    max-width: 120px;
     border: none;
     transition: 200ms linear;
     color: white;
@@ -217,7 +217,7 @@ header {
 }
 
 .info_btn {
-    width: 180px;
+    max-width: 180px;
     border: none;
     transition: 200ms linear;
     color: white;
@@ -235,9 +235,11 @@ header {
 }
 
 .accessory_pic {
-    width: 120px;
-    height: 120px;
     transition: 200ms linear;
+}
+
+.accessory_pic img {
+    width: 60%;
 }
 
 .inactive {
@@ -266,10 +268,6 @@ header {
     position: relative;
 }
 
-.jumbo_pic.smaller {
-    max-width: 220px;
-}
-
 .new_games {
     color: white;
     background: #1F1F1F;
@@ -281,6 +279,7 @@ header {
 
 .new_games_img {
     border-radius: 15px;
+    overflow: hidden;
 }
 
 #nested_col:hover .new_games_img {
@@ -292,6 +291,6 @@ header {
     vertical-align: super;
 }
 
-.info_btn_small {
-    width: 120px;
+.info_btn.smaller {
+    max-width: 120px;
 }
