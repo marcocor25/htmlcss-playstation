@@ -169,7 +169,6 @@ header {
 /* MY STYLE - MAIN */
 
 #returnal_banner {
-    min-height: 580px;
     background-image: url(img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
@@ -182,7 +181,7 @@ header {
 }
 
 .jumbo_pic {
-    width: 250px;
+    max-width: 250px;
 }
 
 .buy_now {
@@ -217,7 +216,7 @@ header {
     color: #016FD1;
 }
 
-#more_info_btn {
+.info_btn {
     width: 180px;
     border: none;
     transition: 200ms linear;
@@ -225,7 +224,7 @@ header {
     background: #016FD1;
 }
 
-#more_info_btn:hover {
+.info_btn:hover {
     transform: scale(1.05);
     background: black;
 }
@@ -259,7 +258,6 @@ header {
 }
 
 #takes_two_banner {
-    min-height: 580px;
     background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
     background-position: center;
@@ -269,7 +267,7 @@ header {
 }
 
 .jumbo_pic.smaller {
-    width: 220px;
+    max-width: 220px;
 }
 
 .new_games {
@@ -292,4 +290,8 @@ header {
 .fa-registered {
     font-size: 12px;
     vertical-align: super;
+}
+
+.info_btn_small {
+    width: 120px;
 }
