@@ -315,3 +315,7 @@ header {
     color: #B48739;
     background: #F5D445;
 }
+
+.discount_img {
+    cursor: pointer;
+}
