@@ -319,7 +319,6 @@ header {
 .discount_img {
     cursor: pointer;
     transition: 200ms linear;
-    overflow: hidden;
 }
 
 .discount_img:hover {
@@ -342,4 +341,17 @@ header {
 .info_btn.now:hover {
     color: #F5F5F5;
     background: #4780C4;
+}
+
+#social_container {
+    max-width: 600px;
+}
+
+#social_col {
+    cursor: pointer;
+    transition: 200ms linear;
+}
+
+#social_col:hover {
+    transform: scale(0.95);
 }
