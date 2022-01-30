@@ -299,7 +299,7 @@ header {
     background: #BEBCBB;
 }
 
-.ps_plus_logo {
+.ps_plus_logo, .ps_now_logo {
     max-width: 350px;
 }
 
@@ -318,4 +318,28 @@ header {
 
 .discount_img {
     cursor: pointer;
+    transition: 200ms linear;
+    overflow: hidden;
+}
+
+.discount_img:hover {
+    transform: scale(0.95);
+}
+
+.ps_now {
+    color: white;
+    background: #161C3B;
+}
+
+.info_btn.now {
+    max-width: 230px;
+    font-weight: 600;
+    padding: 10px 20px;
+    color: black;
+    background: #F5F5F5;
+}
+
+.info_btn.now:hover {
+    color: #F5F5F5;
+    background: #4780C4;
 }
