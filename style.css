@@ -122,17 +122,14 @@ header {
 
 #ms_nav {
     background: white !important;
+    box-shadow: 0 3px 0 0 #F8F9FA;
 }
 
 #ms_nav a {
     transition: 200ms linear;
     font-weight: 500;
     text-decoration: none !important;
-    color: black !important;
-}
-
-.dropdown-menu img {
-    max-width: 100px;
+    color: black;
 }
 
 #ms_nav a:hover {
@@ -169,6 +166,34 @@ header {
 }
 
 .fa-search:hover {
+    color: #016FD1;
+}
+
+.menu_item_img {
+    max-width: 100px;
+}
+
+.dropdown {
+    position: static !important;
+}
+
+.dropdown-menu {
+    top: 58px !important;
+    border: none !important;
+    border-radius: 0 !important;
+    text-align: center !important;
+}
+
+.dropdown-menu li {
+    display: inline-block;
+}
+
+#powered {
+    font-weight: light;
+    font-size: 12px;
+}
+
+.fa-playstation {
     color: #016FD1;
 }
 
@@ -363,6 +388,10 @@ header {
 #social_col:hover {
     transform: scale(0.95);
 }
+
+/* ************************************************** */
+
+/* MY STYLE - FOOTER */
 
 #footer_container {
     font-size: 14px;
